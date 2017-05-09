@@ -9,7 +9,7 @@ current_dir_name=`basename "$PWD"`
 cd ../../virtual_environments
 
 $green_color
-echo -e "Creating virtualenvironment named: $current_dir_name ..."
+echo -e "Creating virtual environment named: $current_dir_name ..."
 $reset_color
 
 virtualenv $current_dir_name
